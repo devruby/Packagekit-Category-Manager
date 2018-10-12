@@ -1,0 +1,155 @@
+/*Css*/
+
+    i.required{
+        color: red;
+    }
+    .tleft{
+        padding-right: 35px;
+    }
+    .tright{
+        padding-left: 35px;
+    }
+
+    /*#ui-datepicker-div{
+        margin-top: 80px;
+        margin-left: 75px;
+    }*/
+
+    .allcp-form .select{
+        overflow: hidden;
+    }
+
+    .allcp-form label{
+        color: #7f828f;
+        font-weight: 600;
+        line-height: 1.788;
+    }
+
+    .modal-body h6{
+        font-size: 13px;
+    }
+
+    .modal-body .form-control{
+        font-size: 13px;
+    }
+
+    .allcp-form .btn-success, .btn-success {
+        background-color: #58c249;
+    }
+
+    .btn{
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .alert-success {
+        background-color: #58c249;
+    }
+
+    .ds {
+        padding: 10px 0;
+        background: #edecec;
+    }
+
+    .list {
+        padding-top: 20px;
+    }
+    
+    .add{
+        margin-left: -10px;
+    }
+
+
+/* CSS List team*/
+    .team .team-name{
+        width: 14% !important;
+    }
+    .team .leader{
+        width: 18% !important;
+    }
+    .team .parents{
+        width: 14% !important;
+    }
+    .team .description{
+        width: 40% !important;
+    }
+    .team .actions{
+        width: 14% !important;
+    }
+
+/* CSS List KPI*/
+    .kpi .time{
+        width: 10% !important;
+    }
+    .kpi .name{
+        width: 18% !important;
+    }
+    .kpi .target{
+        width: 24% !important;
+    }
+    .kpi .result{
+        width: 10% !important;
+    }
+    .kpi .validation{
+        width: 16% !important;
+    }
+    .kpi .note{
+        width: 12% !important;
+    }
+    .kpi .actions{
+        width: 10% !important;
+    }
+
+/* CSS List recruitment*/
+    .recruitment.name{
+        width: 14% !important;
+    }
+    .recruitment.phone{
+        width: 10% !important;
+    }
+    .recruitment.email{
+        width: 20% !important;
+    }
+    .recruitment.leader{
+        width: 14% !important;
+    }
+    .recruitment.time{
+        width: 14% !important;
+    }
+    .recruitment.result{
+        width: 14% !important;
+    }
+    .recruitment .actions{
+        width: 14% !important;
+    }
+
+/* CSS List member*/
+    .member .name{
+        width: 20% !important;
+    }
+    .member .phone{
+        width: 18% !important;
+    }
+    .member .email{
+        width: 30% !important;
+    }
+    .member .team{
+        width: 18% !important;
+    }
+    .member .actions{
+        width: 14% !important;
+    }
+
+/* add css */
+    .add-new {
+        position: absolute;
+        top: -75px;
+        right: 30px;
+        z-index: 99999;
+    }
+    #menu1 .form-header {
+        position: absolute;
+        top: -50px;
+        right: 30px;
+        z-index: 99999;
+    }

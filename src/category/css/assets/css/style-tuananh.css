@@ -1,0 +1,425 @@
+
+.required{
+    color: red;
+}
+
+.btn-rong{
+	width: 100%;
+}
+
+select.error {
+    border: 1px solid red !important;
+}
+
+select.error + span.select2 {
+  border: 1px solid red !important;
+  border-radius: 3%;
+}
+
+.canchinh-bang .select, .canchinh-bang .gui-input, .canchinh-bang .gui-textarea, .canchinh-bang .select > select, .canchinh-bang .select-multiple select{
+  overflow: hidden;
+  /*height: 36px;*/
+}
+/*.canchinh-bang .select .arrow{
+  top: 5px;
+}*/
+
+.canchinh-bang label{
+  color: black;
+  font-weight: 600;
+  line-height: 1.788;
+
+}
+
+.canchinh-bang input[type=submit], .canchinh-bang button, .canchinh-bang input[type=button]{
+  font-weight: 600;
+}
+
+.text-left.dr {
+    width: 35%;
+}
+
+
+.tkbt.btn.btn-success{
+  margin-right: 30px;
+}
+
+.form-control{
+  height: 42px;
+}
+
+label.error{
+  color: red;
+}
+
+.cot-8{
+  width: 12.5% ;
+}
+
+.cot-4{
+  width: 25% ;
+}
+
+.cot-5{
+  width: 20% ;
+}
+
+.cot-6{
+  width: 16.666666667% ;
+}
+
+.thaotac{
+  width: 90px;
+}
+
+.select2-container--default .select2-selection--multiple{
+  background: none;
+}
+
+.select2-container .select2-selection--multiple{
+  min-height: 42px;
+}
+
+.phanhoi{
+  width: 31%;
+}
+
+.hocvien {
+    width: 150px;
+}
+
+.diemdanhgia {
+    width: 88px;
+}
+
+.xeploai{
+  width: 90px;
+}
+
+.actions a{
+  margin: 0 4px;
+}
+
+.linktailieu{
+  width: 24%;
+}
+.chude{
+  width: 32%;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered{
+  padding-top: 3px;
+}
+
+#form-add-report .allcp-form .panel-body{
+  padding: 0 25px 10px;
+}
+
+.mota{
+  width: 47%;
+}
+
+.chucvu{
+  width: 40%;
+}
+
+
+.chuc-vu{
+  width: 10%;
+}
+
+.nhan-vien{
+  width: 10%;
+}
+.du-an{
+  width: 10%;
+}
+
+.task-du-an{
+  width: 10%;
+}
+
+.cong-viec{
+  /*width: 3%;*/
+}
+
+.eta{
+  width: 7%;
+}
+
+.spent{
+  width: 8%;
+}
+
+.sta{
+  width: 10%;
+}
+
+.ngay{
+  width: 10%;
+}
+
+.botron{
+  border-radius: 3px;
+  border: 1px solid #DDD;
+  margin-top: 10px;
+}
+
+.col-md-nam{
+  width: 20%;
+  float: left;
+}
+
+#danhgia input[type='radio']{
+  margin-top: 10px;
+}
+
+.cantren{
+  margin-top: 10px;
+}
+
+.personal-detail .left-content .avatar .atavar{
+  width: 30%;
+  margin: auto;
+}
+
+.personal-detail .left-content .avatar  .position{
+  font-size: 14px;
+}
+
+ .title{
+  font-size: 16px;
+}
+
+.work-timeline span.number span{
+  font-size: 13px;
+  left: -76px;
+}
+
+.work-timeline div .title, .work-timeline div .type{
+  font-size: 14px;
+  font-family: Open Sans;
+}
+
+.work-timeline ul li{
+  width: 432px;
+  display: flex;
+}
+
+.more-infomation table tbody tr td:first-child{
+  width: 93px;
+  padding-left: 0;
+}
+
+.work-timeline ul {
+    font-family: Open Sans;
+    font-size: 14px;
+}
+
+.khoahoc {
+    width: 213px;
+}
+
+.phuongphapday{
+  width: 140px;
+}
+
+.table > thead > tr > th > span {
+  text-transform: lowercase;
+}
+
+.ghichu{
+  width: 50px;
+}
+
+.allcp-form #spent{
+  padding-left: 15px;
+}
+
+.allcp-form .suatext{
+  font: 600 12px 'Open Sans';
+}
+
+.navbar-logo-wrapper .navbar-logo-text img {
+    width: 100px;
+    display: block;
+    margin: 5px auto;
+}
+
+.navbar-logo-wrapper .navbar-logo-text {
+  width: 79%;
+}
+
+.linkstask {
+    width: 90px;
+}
+
+.allcp-form .radio-insert{
+  line-height: 1.231;
+  padding-right: 14px;
+}
+.allcp-form .ldcf{
+  clear: both;
+}
+
+.allcp-form .btn-purple{
+  background: #7c008c;
+  color: white;
+}
+
+.allcp-form .btn-purple:hover , .allcp-form .btn-purple:focus  {
+  background: #BD41CD;
+  color: white;
+}
+
+.toggle{
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 40px;
+}
+
+.chitiet{
+  top:inherit;
+  left: inherit;
+}
+
+.dropdown-menu > li > a{
+  cursor: pointer;
+}
+
+.lnghiphep{
+  width: 15%;
+}
+
+.tungay{
+  width: 10%;
+}
+
+.denngay{
+  width: 10%;
+}
+
+.sngaynghi{
+  width: 10%
+}
+
+.mota {
+    width: 45%;
+}
+
+.nhanvien {
+    width: 10%;
+}
+
+.longhiphep{
+  width: 20%;
+}
+
+#error_modal .modal-backdrop.in,  #error_modal_time .modal-backdrop.in{
+  opacity: 0;
+}
+
+#error_modal .modal-header , #error_modal_time .modal-header{
+  background-color: #fc6e51;
+  border-color: #fc6e51;
+}
+
+#error_modal button , #error_modal_time button{
+  color: white;
+  opacity: 1;
+}
+
+#error_modal h4 , #error_modal_time h4{
+color: white;
+
+}
+
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+
+.en-scroll{
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.modal-open .dis-scroll{
+  overflow-y: hidden;
+}
+
+.btntnvda{
+  margin: -10px 0;
+}
+
+.btntnvda-hai{
+  margin: -10px 13px;
+}
+
+.tolen{
+  font-size: 20px;
+}
+
+.teen-top{
+  margin-bottom: 40px;
+}
+
+
+.bgrt{
+  padding: 15px;
+  background: white;
+}
+
+.bgrt-hai{
+  padding: 15px 0;
+  background: white;
+}
+
+.bgrt-hai > h4{
+  margin-left: 8px;
+}
+
+.bgrt > h4{
+  margin-left: 8px;
+}
+
+/*.ranges li:last-child { display: none; }*/
+
+#reportrange{
+  margin: 8px auto !important;
+}
+
+.bg-dark{
+  background: none !important;
+}
+
+.navbar.navbar-fixed-top + #sidebar_left + #content_wrapper{
+  padding-top: 0;
+}
+
+.content-header{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#content.table-layout > div, #content.table-layout > section{
+  padding: 20px 32px 50px;
+}
+
+#content {
+  padding: 20px 30px 50px 31px;
+}
+
+.mw1000{
+  max-width: 100% !important;
+}
+
+.drtentk{
+  font-size: 14px;
+}
+
+.kckd{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}

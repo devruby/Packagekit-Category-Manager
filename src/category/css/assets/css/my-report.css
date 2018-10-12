@@ -1,0 +1,520 @@
+.w-100{
+    width: 100%;
+}
+#content.my-report .panel{
+    margin: 0px;
+}
+#reportrange_page{
+	background: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 42px;
+}
+#reportrange_page spans{
+	font-weight: 300;
+	top: 2px;
+    position: relative;
+}
+.daterangepicker.ltr .calendar {
+    float: left !important;
+}
+.daterangepicker .calendar .left{
+    padding-right: 0px !important;
+}
+.daterangepicker .calendar .right{
+    padding-left: 0px !important;
+}
+.daterangepicker .ranges{
+    float: right !important;
+}
+.daterangepicker .ranges ul{
+    padding-left: 0px;
+}
+.wrap-slide-week{
+	padding: 0px 20px;
+	min-height: 70px;
+	/*margin-bottom: 15px;*/
+}
+.wrap-slide-week .wrap-item-slide{
+    width: auto;
+    margin: 0 auto;
+    min-width: 260px;
+    max-height: 50px;
+}
+.wrap-slide-week .wrap-item-slide i{
+	font-size: 5rem;
+	cursor: pointer;
+    color: #333;
+}
+.wrap-text-slide span{
+	width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #333;
+}
+.wrap-text-slide p{
+	text-align: center;
+	font-size: 1.3rem;
+}
+.wrap-task{
+	position: relative;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    min-height: 60px;
+    box-shadow: 0px 0px 4px 1px #ccc;
+}
+.wrap-task ul{
+    list-style: none;
+    padding: 15px;
+}
+.wrap-task ul li{
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.wrap-task ul li div{
+    float: left;
+    text-align: left;
+}
+.wrap-task ul li.first div span{
+    font-weight: 600;
+    color: #655348;
+}
+.wrap-task table{
+    width: 100%;
+}
+.wrap-task table .project{
+    width: 18%;
+}
+.wrap-task table .task{
+    width: 29%;
+}
+.wrap-task table .list-employee{
+    width: 13%;
+}
+.wrap-task table .expired-date{
+    width: 8%;
+}
+.wrap-task table .days-remain{
+    width: 5%;
+}
+.wrap-task table .total{
+    width: 10%;
+}
+.wrap-task table .td-start-date{
+    width: 12%;
+}
+.wrap-task table .edit{
+    width: 5%;
+    text-align: center;
+}
+.wrap-task table .edit a{
+    cursor: pointer;
+}
+/*table .project .wrap-img{*/
+    /*width: 100%;*/
+/*}*/
+table .project .wrap-img img{
+    max-width: 60px;
+    border-radius: 50%;
+    /*border: 1px solid #e8e5e5;*/
+}
+table .project .wrap-text{
+    min-height: 30px;
+}
+
+table .list-employee .wrap-list-img{
+    margin-right: 4px;
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    overflow: hidden;
+    border: 1px solid #adadad;
+}
+table .list-employee .wrap-list-img img{
+    /*width: 30px;*/
+    /*border-radius: 50%;*/
+    /*border: 1px solid #e8e5e5;*/
+    width: 100%;
+}
+table .total .wrap-process{
+    width: 100px;
+    height: 11px;
+    margin-right: 10px;
+    border: 1px solid #dfdcdc;
+}
+table .total .wrap-process .current-process{
+    height: 10px;
+}
+.wrap-search-project{
+    position: relative;
+    width: 100%;
+}
+.wrap-search-project input{
+    margin-bottom: 0px;
+}
+.wrap-search-project i.fa-search{
+    position: absolute;
+    right: 10px;
+    top: 11px;
+    font-size: 1.8rem;
+    color: #5B4C44;
+}
+.wrap-search-project ul{
+    position: absolute;
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+    background: #fff;
+    top: 40px;
+    border: 1px solid #ccc;
+    display: none;
+}
+.wrap-search-project ul li{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.wrap-search-project ul li:last-child{
+    border-bottom: none;
+}
+.left-content{
+    width: 22%;
+}
+.left-content ul {
+    list-style: none;
+}
+.left-content ul li{
+    background-color: #655348;
+    border-radius: 4px;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+.left-content ul li.active{
+    background-color: #3C312A;
+}
+.left-content ul li h3{
+    margin: 0px 0px 10px;
+    font-size: 1.6rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.left-content ul li .wrap-process{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+.left-content ul li .wrap-process .current-process{
+    height: 16px;
+    text-align: center;
+}
+.left-content ul li .wrap-process .current-process span{
+    display: block;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: #fff;
+}
+.left-content ul li .wrap-button{
+    margin-bottom: 10px;
+}
+.left-content ul li .wrap-button .left-button{
+    float: left;
+}
+.left-content ul li .wrap-button .right-button{
+    float: right;
+}
+.left-content ul li .wrap-button a{
+    color: #fff;
+    padding: 2px 10px;
+    font-size: 1.2rem;
+    border-radius: 2px;
+}
+.left-content ul li .wrap-button a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.left-content ul li i{
+    color: #ABABAB;
+}
+.left-content ul li .wrap-date span{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-left: 5px;
+}
+.left-content ul li .wrap-project-type{
+    margin-bottom: 8px;
+}
+.left-content ul li .wrap-project-type img{
+    max-width: 13px;
+}
+.left-content ul li .wrap-project-type span{
+    margin-left: 5px;
+    color: #fff;
+}
+.left-content ul li img.img-project{
+    max-width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+.right-content{
+    min-height: 100px;
+    margin-left: 10px;
+    width: 77%;
+    float: right;
+    box-shadow: 0px 2px 4px 0px #ccc;
+    background-color: #fff;
+}
+.right-content .top-r-content{
+    min-height: 60px;
+    border-radius: 4px 4px 0px 0px;
+    margin-bottom: 30px;
+    background-color: #3C312A;
+}
+.right-content .top-r-content img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 0px 10px;
+
+}
+.right-content .top-r-content span{
+    color: #fff;
+}
+.right-content .top-r-content .wrap-process{
+    margin: 0px 10px 0px 40px;
+    min-width: 300px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.right-content .top-r-content .wrap-process .current-process{
+    height: 20px;
+    border-radius: 4px 0px 0px 4px;
+}
+.right-content .top-r-content .wrap-process .current-process span{
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+}
+.project-type{
+    float: right;
+    padding-right: 10px;
+}
+.project-type i{
+    font-size: 3rem;
+    color: #D4D3D8;
+}
+.wrap-project-type{
+    height: 26px;
+}
+.right-content .wrap-project-type span{
+    width: 80%;
+    display: inline-block;
+    text-align: right;
+}
+.right-content .wrap-project-type span b{
+    font-weight: 300;
+    color: #EAC52D;
+}
+.process-master {
+    margin-bottom: 30px;
+}
+.process-master .process-item{
+    float: left;
+}
+.process-master .process-item span{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #594C44;
+}
+.process-master .wrap-process{
+    background-color: #e9e9e9;
+    position: relative;
+}
+.process-master .current-process{
+    height: 14px;
+    display: flex;
+}
+.process-master .current-process span{
+    margin: 0px;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+.process-master .process-item:first-child .wrap-process .current-process{
+    border-radius: 4px 0px 0px 4px;
+}
+.process-master .process-item:last-child .wrap-process{
+    border-radius: 0px 4px 4px 0px;
+} 
+.process-master .wrap-process .border{
+    width: 1px;
+    height: 30px;
+    position: absolute;
+    background-color: #908b8b;
+    right: 0px;
+    top: -10px;
+}
+.wrap-project-content ul{
+    list-style: none;
+    padding: 0px;
+}
+.wrap-project-content ul li:not(.collapse){
+    display: inline-block;
+    width: 100%;
+}
+.wrap-project-content ul li.item-project{
+    padding: 15px 0px;
+}
+.wrap-project-content ul li.first-title{
+    font-weight: 600;
+}
+.wrap-project-content ul li > div{
+    float: left;
+}
+.wrap-project-content ul li:not(.first-title) > div{
+    min-height: 54px;
+}
+.wrap-project-content ul li div.list-task{
+    width: 40%;
+}
+.wrap-project-content ul li div.list-employee{
+    width: 30%;
+}
+.wrap-project-content ul li div.list-process{
+    width: 20%;
+}
+.wrap-project-content ul li div.list-still-days{
+    width: 10%;
+}
+.wrap-project-content ul li.wrap-phase.item-phase{
+    background-color: #FBFAF8;
+    border-top: 1px solid #e2e0e0;
+    border-bottom: 1px solid #e2e0e0;
+}
+.wrap-project-content ul li span{
+    width: 100%;
+    display: inline-block;
+    color: #655348;
+}
+.wrap-project-content ul li.wrap-phase div span{
+    color: #594C44;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.wrap-project-content ul li div span i{
+    margin-right: 5px;
+}
+.wrap-project-content ul li div span.date{
+    font-weight: 300;
+}
+.wrap-project-content ul li div img{
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #e8e5e5;
+}
+.wrap-project-content ul li div.list-process > div{
+    width: 200%;
+    margin-right: 10px;
+}
+.wrap-project-content ul li div.list-process > div .process{
+    width: 100%;
+    height: 10px;
+    background-color: #ececec;
+    border-radius: 4px;
+}
+.wrap-project-content ul li div.list-process > div .process .current-process{
+    border-radius: 4px 0px 0px 4px;
+    height: 10px;
+}
+li.item-tasks-child{
+    border-bottom: 1px solid #ececec;
+}
+li.item-tasks-child:last-child{
+    border-bottom: none;
+}
+li.item-tasks-child .list-task{
+    padding-left: 15px;
+}
+li.wrap-tasks{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.right-content:not(.active){
+    display: none;
+}
+div.project .wrap-text span{
+    color: #655348;
+}
+.wrap-task table .list-task-item.ajax-loader{
+    text-align: center;
+    display: none;
+}
+.wrap-task table .list-task-item.ajax-loader img{
+    width: 30px;
+}
+select.report-point{
+    margin-left: 5px;
+    width: 63px;
+    border-radius: 4px;
+    padding: 2px 0px;
+}
+.wrap-update{
+    padding-bottom: 20px;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+.wrap-update a{
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+}
+span#this_week span{
+    display: inline;
+}
+table tr th, table tr td{
+    color: #333;
+}
+table tr th, table tr td{
+    padding: 10px;
+}
+td.total span{
+    min-width: 36px;
+    display: none;
+}
+td .task-title{
+    width: 100%;
+    display: inline-block;
+}
+td .sub-task-title{
+    font-size: 1.4rem;
+    color: #b9b6b6;
+}
+.prepend-icon{
+    top: 0;
+    left: 0;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 100%;
+}
+.form-group.wrap-date{
+    width: 100%;
+}
+span.error{
+    color: red;
+    display: none;
+}

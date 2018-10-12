@@ -1,0 +1,274 @@
+
+
+/* CSS used here will be applied after bootstrap.css */
+
+.box.box-success {
+    border-top-color: #5a5386;
+}
+
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+
+.modal-header-success {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color:  #00e4ff;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-header-warning {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #f0ad4e;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-header-danger {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #d9534f;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-header-info {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #5bc0de;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-header-primary {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #428bca;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* custom button */
+
+.btn-custom {
+    color: #fff;
+    background-color: #5a5386;
+}
+
+.btn-custom.active, .btn-custom:active, .btn-custom:focus, .btn-custom:hover, .open > .dropdown-toggle.btn-custom {
+    color: #fff;
+    background-color: #a8b924;
+    border-color: rgba(0, 0, 0, .05)
+}
+
+.btn-custom.disabled, .btn-custom.disabled.active, .btn-custom.disabled:active, .btn-custom.disabled:focus, .btn-custom.disabled:hover, .btn-custom[disabled], .btn-custom[disabled].active, .btn-custom[disabled]:active, .btn-custom[disabled]:focus, .btn-custom[disabled]:hover, fieldset[disabled] .btn-custom, fieldset[disabled] .btn-custom.active, fieldset[disabled] .btn-custom:active, fieldset[disabled] .btn-custom:focus, fieldset[disabled] .btn-custom:hover {
+    background-color: #c3d62d;
+    border-color: #c3d62d
+}
+
+.btn-custom .badge {
+    color: #c3d62d;
+    background-color: #fff
+}
+
+.btn-custom.light {
+    background-color: #cadb47
+}
+
+.btn-custom.dark, .btn-custom.light.active, .btn-custom.light:active, .btn-custom.light:focus, .btn-custom.light:hover, .open > .dropdown-toggle.btn-custom.light {
+    background-color: #aebf25
+}
+
+.btn-custom.dark.active, .btn-custom.dark:active, .btn-custom.dark:focus, .btn-custom.dark:hover, .open > .dropdown-toggle.btn-custom.dark {
+    background-color: #97a520
+}
+
+.top-buffer { margin-top:20px; }
+
+.small-help-block {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #c3c4cb;
+    font-size: 12px;
+}
+
+
+/* custom by nguyễn tuấn anh */
+.brtk{
+    background-color: #fafafa;
+    border: 1px solid #e5eaee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dskh{
+    margin-bottom: 15px;
+}
+
+#blah {
+    cursor: pointer;
+}
+
+.fileContainer{
+    display: none;
+}
+
+.tkh{
+    padding-left: 0;
+}
+
+
+/*
+.tkbt[type="submit"].btn-block, .tkbt[type="reset"].btn-block{
+    width: 50%;
+}*/
+
+input.error{
+    border: 1px solid red;
+}
+
+label.error{
+    color: red;
+}
+
+.form-control:focus.error {
+    border: 1px solid red;
+}
+
+label.error{
+    color: red;
+    font-size: 12px;
+    display: block;
+}
+.emp-detail .tab-content{
+    border: 1px solid #dddddd;
+    border-top: transparent;
+}
+
+.personal-detail .summary{
+    border: 1px solid #dddddd;
+    margin-left: -10px;
+}
+.personal-detail .summary .summary-title h4{
+    background-color: #5C92C1;
+    color: #FFF;
+    padding: 10px 10px;
+    font-size: 15px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.personal-detail .summary .summary-content .avatar{
+    width: 25%;
+    float: left;
+}
+.personal-detail .summary .summary-content .contract{
+    width: 75%;
+    float: right;
+}
+.personal-detail .summary .summary-content .contract ul li{
+    list-style: none;
+    border-bottom: 1px solid #e3e3e3;
+}
+.emp-content table th{
+    background-color: #7ca9d0;
+    color: #FFF;
+}
+.emp-content table{
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.padding-right-none{
+    padding-right: 0px;
+}
+.padding-right-10{
+    padding-right: 10px;
+}
+.padding-left-none{
+    padding-left: 0px;
+}
+
+.box-title h3{
+    margin-top: 0;
+}
+.btn-font-size{
+    font-size: 14px;
+}
+.btn-search-emp{
+    margin-right: 15px !important;
+}
+/*btn edit, delete */
+.actions a{
+    margin: 0 10px;
+}
+.actions a i{
+    font-size: 14px;
+}
+.actions a i.delete{
+    color: red;
+}
+.actions a i.view-detail{
+    color: #87d37c;
+}
+
+/*ảnh xuống khoảng dưới*/
+.hinhanh{
+    clear: left;
+    display: block;
+}
+
+.kccn{
+    margin: 0 8px;
+}
+.btn-working-report{
+    float: right;
+}
+
+/*khoảng cách trên dưới của h3 tiều đề phần nội dung*/
+.kccn{
+    margin: 0 8px;
+}
+
+/*độ rộng nút button*/
+/*.btn-rong{
+    padding-left: 35px;
+    padding-right:  35px;
+}*/
+
+/*nút button căn bên phải 10px*/
+.btn-cp-10{
+    margin-right: 10px;
+}
+
+.required{
+    color: #f5393d;
+}
